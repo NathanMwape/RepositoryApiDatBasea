@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/repos1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-> "
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/repo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-> "
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/buttonSoumettre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soumettre"/>
+
+
+</LinearLayout>
